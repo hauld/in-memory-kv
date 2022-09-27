@@ -1,0 +1,28 @@
+{
+  "name": "matiq-queue",
+  "version": "0.1.0",
+  "description": "Lightweight message queue with Rust",
+  "main": "index.js",
+  "scripts": {
+    "build": "cargo-cp-artifact -nc index.node -- cargo build --message-format=json-render-diagnostics",
+    "install": "npm run build",
+    "test": "mocha"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "cargo-cp-artifact": "^0.1",
+    "mocha": "^10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbd.git"
+  },
+  "keywords": [
+    "Neon",
+    "Queue"
+  ],
+  "bugs": {
+    "url": "https://github.com/tbd"
+  },
+  "homepage": "https://github.com/tbd#readme"
+}
